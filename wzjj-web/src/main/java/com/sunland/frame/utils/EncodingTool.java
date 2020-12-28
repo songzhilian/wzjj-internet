@@ -11,6 +11,7 @@ public class EncodingTool {
             return new String(str.getBytes("ISO-8859-1"), "UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
+            System.out.println("ceshi");
             return null;
         }
     }
